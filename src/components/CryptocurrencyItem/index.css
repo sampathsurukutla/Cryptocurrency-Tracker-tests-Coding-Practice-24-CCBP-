@@ -1,0 +1,33 @@
+.cryptocurrency-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+}
+.currency-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.coin-type-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+.usd-container {
+  width: 20%;
+}
+.euro-container {
+  width: 20%;
+}
+@media (max-width: 768px) {
+  .currency-logo {
+    width: 20px;
+    height: 20px;
+  }
+  .cryptocurrency-item {
+    width: 93vw;
+    font-size: 12px;
+  }
+}
